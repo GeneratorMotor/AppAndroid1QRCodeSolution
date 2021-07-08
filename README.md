@@ -1,0 +1,1 @@
+# AppAndroid1QRCodeSolution
