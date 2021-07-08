@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAndroid1.PageCompyter"
+             Title="Описание оргтехники" >
+    <Grid Padding="20,20,20,20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition>
+                <ColumnDefinition.Width>0.5*</ColumnDefinition.Width>
+            </ColumnDefinition>
+            <ColumnDefinition>
+                <ColumnDefinition.Width>0.5*</ColumnDefinition.Width>
+           </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Label Text="Номер комнаты -" Grid.Column="0" Grid.Row="0" FontSize="Body" FontAttributes="Bold"/>
+        <Label Text="{Binding DepartmentName}" Grid.Column="1" Grid.Row="0" FontSize="Body" FontAttributes="Bold" />
+        <Label Text="Серийный номер -" Grid.Column="0" Grid.Row="2" FontSize="Body" FontAttributes="Bold"/>
+        <Label Text="{Binding SeriynNumber}" Grid.Column="1" Grid.Row="2" FontSize="Body" FontAttributes="Bold" />
+        <Label Text="Инвентарный номер - " Grid.Column="0" Grid.Row="3" FontSize="Body" FontAttributes="Bold"/>
+        <Label Text="{Binding InventoryNumber}" Grid.Column="1" Grid.Row="3" FontSize="Body" FontAttributes="Bold" />
+        <Label Text="Описание компьютера - " Grid.Column="0" Grid.Row="4" FontSize="Body" FontAttributes="Bold"/>
+        <Label Text="{Binding Name}" Grid.Column="1" Grid.Row="4" FontSize="Body" FontAttributes="Bold" />
+        <Label Text="Сотрудник -  " Grid.Column="0" Grid.Row="5" FontSize="Body" FontAttributes="Bold"/>
+        <Label Text="{Binding Сотрудник}" Grid.Column="1" Grid.Row="5" FontSize="Body" FontAttributes="Bold" />
+        <Button x:Name="buttinEdit" AutomationId="button1"  FontSize="Body" Grid.Row="6" Grid.ColumnSpan="2"
+                Text="Редактировать" HorizontalOptions="CenterAndExpand" Clicked="Button_Cliked_editRood"
+                HeightRequest="50" VerticalOptions="CenterAndExpand"/>
+    </Grid>
+
+</ContentPage>

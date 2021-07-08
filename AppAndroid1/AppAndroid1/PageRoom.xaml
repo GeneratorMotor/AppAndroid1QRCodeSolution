@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAndroid1.PageRoom">
+    <ContentPage.Content>
+        <StackLayout>
+            <SearchBar x:Name="searFind" Placeholder="Поиск" TextChanged="OnTextChange" />
+            <Label Text="Список комнат"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <ListView x:Name="listDepartmens" ItemSelected="listDepartmens_ItemSelected"></ListView>
+            <Button x:Name="button1" Text="Сохранить" Clicked="button1_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

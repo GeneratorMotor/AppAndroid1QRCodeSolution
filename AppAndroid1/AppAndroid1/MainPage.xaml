@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAndroid1.MainPage"
+             xmlns:local= "clr-namespace:AppAndroid1"
+             Title="Учет оргтехники">
+
+    <StackLayout>
+        <Button x:Name="buttin1" AutomationId="button1"  FontSize="Body" 
+                Text="Прочитать QR код" HorizontalOptions="CenterAndExpand" Clicked="buttin1_Clicked"
+                HeightRequest="50" VerticalOptions="CenterAndExpand"
+                />
+        <!--<Label Text="{StaticResource AppName}"/>-->
+        <!--<Label Text="{StaticResource AppName}" HorizontalOptions="Center" VerticalOptions="End"/>-->
+        
+        <!-- Укажем авторские права через расширение разметки XAML -->
+        <Label Text="{x:Static local:MainPage.TextCopyright}" Padding ="10,0,0,10"/>
+    </StackLayout>
+
+</ContentPage>
