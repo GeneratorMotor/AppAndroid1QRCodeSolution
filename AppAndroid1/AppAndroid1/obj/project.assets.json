@@ -1027,11 +1027,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Android\\AppAndroid1QRCodeSolution\\AppAndroid1\\AppAndroid1\\AppAndroid1.csproj",
+      "projectUniqueName": "F:\\Android\\AppAndroid1QRCodeSolutionRab\\AppAndroid1\\AppAndroid1\\AppAndroid1.csproj",
       "projectName": "AppAndroid1",
-      "projectPath": "F:\\Android\\AppAndroid1QRCodeSolution\\AppAndroid1\\AppAndroid1\\AppAndroid1.csproj",
+      "projectPath": "F:\\Android\\AppAndroid1QRCodeSolutionRab\\AppAndroid1\\AppAndroid1\\AppAndroid1.csproj",
       "packagesPath": "C:\\Users\\dugin\\.nuget\\packages\\",
-      "outputPath": "F:\\Android\\AppAndroid1QRCodeSolution\\AppAndroid1\\AppAndroid1\\obj\\",
+      "outputPath": "F:\\Android\\AppAndroid1QRCodeSolutionRab\\AppAndroid1\\AppAndroid1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

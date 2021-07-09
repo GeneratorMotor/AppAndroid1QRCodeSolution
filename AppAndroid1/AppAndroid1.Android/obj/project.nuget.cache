@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ALtHXYch8L/9x7WfBYlod4Fv3m5k4BY0x+Hu1cgtiuvUY28fRtVGOtf4S79Km0RpzYjQik4EO/lx4kYxXi2/Eg==",
+  "dgSpecHash": "X1Zma3d79EbKuA2Qjh4SLUxMoq57W0L6ZYWewy9fBtNWuoVcDEzn0iAGP7Y4vETkfmaY0KhxHJvJKhJr2Twu+A==",
   "success": true,
-  "projectFilePath": "F:\\Android\\AppAndroid1QRCodeSolution\\AppAndroid1\\AppAndroid1.Android\\AppAndroid1.Android.csproj",
+  "projectFilePath": "F:\\Android\\AppAndroid1QRCodeSolutionRab\\AppAndroid1\\AppAndroid1.Android\\AppAndroid1.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dugin\\.nuget\\packages\\fastandroidcamera\\2.0.0\\fastandroidcamera.2.0.0.nupkg.sha512",
     "C:\\Users\\dugin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",

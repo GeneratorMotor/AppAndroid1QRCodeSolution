@@ -4,16 +4,16 @@
             xmlns:local ="clr-namespace:AppAndroid1"
             Title="Редактирование"
              x:Class="AppAndroid1.TabbedPage1">
-    <NavigationPage Title="Номер комнаты">
+    <!--<NavigationPage Title="Номер комнаты">
         <x:Arguments>
-            <local:PageRoom />
+            <local:PageRoom  />
         </x:Arguments>
     </NavigationPage>
     <NavigationPage Title="ФИО">
         <x:Arguments>
             <local:PageFio/>
         </x:Arguments>
-    </NavigationPage>
+    </NavigationPage>-->
 
     
 </TabbedPage>

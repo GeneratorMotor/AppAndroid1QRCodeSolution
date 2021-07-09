@@ -46,7 +46,7 @@ namespace AppAndroid1
         {
             //EditComyter ek = new EditComyter(viewCompyter);
             TabbedPage1 ek = new TabbedPage1(viewCompyter);
-            
+
             // Добавим страницу в навигацию.
             Navigation.PushAsync(ek);
         }

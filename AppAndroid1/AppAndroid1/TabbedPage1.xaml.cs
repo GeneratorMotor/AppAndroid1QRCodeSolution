@@ -14,10 +14,10 @@ namespace AppAndroid1
     public partial class TabbedPage1 : TabbedPage
     {
         private ViewCompyter vk;
+
+        private NavigationPage navigationPage1 = new NavigationPage();
         public TabbedPage1(ViewCompyter vk)
         {
-            InitializeComponent();
-
             if (vk == null)
             {
                 throw new ArgumentNullException("Нет данных по компьютеру");
@@ -25,8 +25,58 @@ namespace AppAndroid1
 
             this.vk = vk;
 
+            InitializeComponent();
+
+            // Создадим экземпляр PageRoom.
+            PageRoom pageRoom = new PageRoom(this.vk);
+
+            navigationPage1.PushAsync(pageRoom);
+
+            StackLayout stackLayout = new StackLayout();
+            stackLayout.BindingContext = navigationPage1;
+            //stackLayout.Navigation.PushAsync(pageRoom);
+
+            this.BindingContext = stackLayout;
+
+
+
+
+
+
+            //// Сооздадим разметку Стек.
+            //StackLayout stackLayout = new StackLayout
+            //{
+            //    // Добавим в стек панель навигации.
+            //    Children =
+            //    {
+            //        var test = new NavigationPage();
+            //    }
+            //};
+
         }
 
+            
 
+            //PageRoom pageRoom = new PageRoom(this.vk);
+
+            //StackLayout stackLayout = new StackLayout
+            //{
+            //    Children =
+            //    {
+            //        new NavigationPage
+            //        {
+            //            Title = "Номер комнаты",
+            //            BindingContext = new PageRoom(this.vk);
+            //        }
+            //    }
+            //}
+
+
+            //NavigationPage navigationPage = new NavigationPage();
+            //navigationPage.Title = "Номер комнаты";
+            //navigationPage.BindingContext = pageRoom;
+
+            //StackLayout stackLayout = new StackLayout();
+            //stackLayout.Children.Add(navigationPage);
     }
 }

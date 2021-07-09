@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ETZ/OjIbPdhgCWx2Ipl0K/Q8lUozCwh9UjBaN36DYQu97p66+wMoRwh/VbPbJvQYJYq8zrjVsnjrnBnjSGHf4g==",
+  "dgSpecHash": "xcXSVfw6rRcCJJeWoGeCiQduDbvFE7deBRdnB51/o2jCqzGb+V8s89Df49WdJ/yvTg3A+b8Wky1JkVzYpfuvWA==",
   "success": true,
-  "projectFilePath": "F:\\Android\\AppAndroid1QRCodeSolution\\AppAndroid1\\AppAndroid1\\AppAndroid1.csproj",
+  "projectFilePath": "F:\\Android\\AppAndroid1QRCodeSolutionRab\\AppAndroid1\\AppAndroid1\\AppAndroid1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dugin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\dugin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

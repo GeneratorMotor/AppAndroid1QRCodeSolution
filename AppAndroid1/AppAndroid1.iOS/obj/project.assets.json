@@ -1563,11 +1563,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Android\\AppAndroid1QRCodeSolution\\AppAndroid1\\AppAndroid1.iOS\\AppAndroid1.iOS.csproj",
+      "projectUniqueName": "F:\\Android\\AppAndroid1QRCodeSolutionRab\\AppAndroid1\\AppAndroid1.iOS\\AppAndroid1.iOS.csproj",
       "projectName": "AppAndroid1.iOS",
-      "projectPath": "F:\\Android\\AppAndroid1QRCodeSolution\\AppAndroid1\\AppAndroid1.iOS\\AppAndroid1.iOS.csproj",
+      "projectPath": "F:\\Android\\AppAndroid1QRCodeSolutionRab\\AppAndroid1\\AppAndroid1.iOS\\AppAndroid1.iOS.csproj",
       "packagesPath": "C:\\Users\\dugin\\.nuget\\packages\\",
-      "outputPath": "F:\\Android\\AppAndroid1QRCodeSolution\\AppAndroid1\\AppAndroid1.iOS\\obj\\",
+      "outputPath": "F:\\Android\\AppAndroid1QRCodeSolutionRab\\AppAndroid1\\AppAndroid1.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1588,8 +1588,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "F:\\Android\\AppAndroid1QRCodeSolution\\AppAndroid1\\AppAndroid1\\AppAndroid1.csproj": {
-              "projectPath": "F:\\Android\\AppAndroid1QRCodeSolution\\AppAndroid1\\AppAndroid1\\AppAndroid1.csproj"
+            "F:\\Android\\AppAndroid1QRCodeSolutionRab\\AppAndroid1\\AppAndroid1\\AppAndroid1.csproj": {
+              "projectPath": "F:\\Android\\AppAndroid1QRCodeSolutionRab\\AppAndroid1\\AppAndroid1\\AppAndroid1.csproj"
             }
           }
         }

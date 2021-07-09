@@ -19,13 +19,20 @@ namespace AppAndroid1
 
         private List<Department> departments = new List<Department>();
 
+        private ViewCompyter vk;
+
         private string queryApi = "http://10.159.102.93:80/api/Room";
 
-        public PageRoom()
+        public PageRoom(ViewCompyter vk)
         {
             InitializeComponent();
 
-            
+            if (vk == null)
+            {
+                throw new ArgumentNullException("Нет данных по компьютеру");
+            }
+
+            this.vk = vk;
 
             //string queryApi = "http://localhost:50599/api/Room";
 
@@ -87,8 +94,6 @@ namespace AppAndroid1
 
                 if(department != null)
                 {
-
-                    NavigationPage.S
 
                     //// Обновим 
                     //Task<HttpStatusCode> httpStatusCode = Update(department);

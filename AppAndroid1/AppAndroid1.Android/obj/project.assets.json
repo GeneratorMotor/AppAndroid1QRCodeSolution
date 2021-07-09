@@ -2268,11 +2268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Android\\AppAndroid1QRCodeSolution\\AppAndroid1\\AppAndroid1.Android\\AppAndroid1.Android.csproj",
+      "projectUniqueName": "F:\\Android\\AppAndroid1QRCodeSolutionRab\\AppAndroid1\\AppAndroid1.Android\\AppAndroid1.Android.csproj",
       "projectName": "AppAndroid1.Android",
-      "projectPath": "F:\\Android\\AppAndroid1QRCodeSolution\\AppAndroid1\\AppAndroid1.Android\\AppAndroid1.Android.csproj",
+      "projectPath": "F:\\Android\\AppAndroid1QRCodeSolutionRab\\AppAndroid1\\AppAndroid1.Android\\AppAndroid1.Android.csproj",
       "packagesPath": "C:\\Users\\dugin\\.nuget\\packages\\",
-      "outputPath": "F:\\Android\\AppAndroid1QRCodeSolution\\AppAndroid1\\AppAndroid1.Android\\obj\\",
+      "outputPath": "F:\\Android\\AppAndroid1QRCodeSolutionRab\\AppAndroid1\\AppAndroid1.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2293,8 +2293,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "F:\\Android\\AppAndroid1QRCodeSolution\\AppAndroid1\\AppAndroid1\\AppAndroid1.csproj": {
-              "projectPath": "F:\\Android\\AppAndroid1QRCodeSolution\\AppAndroid1\\AppAndroid1\\AppAndroid1.csproj"
+            "F:\\Android\\AppAndroid1QRCodeSolutionRab\\AppAndroid1\\AppAndroid1\\AppAndroid1.csproj": {
+              "projectPath": "F:\\Android\\AppAndroid1QRCodeSolutionRab\\AppAndroid1\\AppAndroid1\\AppAndroid1.csproj"
             }
           }
         }
